@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+	font-family: Georgia, serif;
+    }
+    
+html, body {
+    height: 100%;
+    background-color: #CCC;
+    }
+	
+#content{
+	padding: 0 20%;
+	background-color: #CCC;
+	}
+
+#content *{
+	background-color: #CCC;
+	font-family: Tahoma, arial;
+	text-align: left;
+	}
+	
+#sub_head{
+	text-align: center;
+	}
+
+.center{
+	text-align: center;
+	}
+	
+h1  {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    }   
+	
+        
+#cart table {
+    margin-left: auto;
+    margin-right: auto;
+    }    
+    
+#cart th, td {
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    }
+    
+#counter {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-weight: normal;
+    font-size: 80%;
+    }
+
+.hide_span {
+	font-style: italic;
+	font-weight: bold;
+	color: red;
+	display: none;
+	margin-left: 50px;
+	}
+	
+.confirm {
+	width: 80%;
+	border-collapse: collapse;
+	margin: 10px;
+}
+
+.confirm td{
+	border: solid black 1px;
+	border-collapse: collapse;
+	width: auto;
+}
+
+.confirm th{
+	font-family: Georgia, serif;
+	font-size: 110%;
+}
+
+
+
+fieldset {
+	margin: 0 auto;
+	background-color: #EEE;
+	}
+
+legend{
+	background-color: #EEE;
+}	
+
+fieldset *{
+	background-color: #EEE;
+}
+
+legend{
+	border: dotted #777 1px;
+	}
+	
+.error{
+	border: solid maroon 1px;
+	background-color: #FAA
+}
+
+#error_msg{
+    height: 50px;
+	color: red;
+	padding: 10px;
+	}
+	
+.total_display *{
+	font-weight: 110%;
+}
+
+#dialog-modal{
+	height: 750;
+	width: 1000;
+	display: none;
+	}
+	
+.dark {
+	background-color: #ccc;
+}
